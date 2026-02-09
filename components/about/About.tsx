@@ -52,7 +52,14 @@ export default function About() {
 
             {/* ================= EMAIL ================= */}
             <div className="flex items-center gap-3">
-              <img src="/gmail.png" alt={translations[lang].hero.email} className="h-5" />
+              <div className="flex items-center gap-3">
+  <img
+    src="/googlewiki.png"
+    alt={translations[lang].hero.email}
+    className="h-5"
+  />
+</div>
+
 
               <span className="text-[#8B0027] font-medium">
                 {email}
