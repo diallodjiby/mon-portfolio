@@ -50,7 +50,7 @@ export default function Hero() {
                 href="mailto:diallodjiby1603@gmail.com"
                 className="flex items-center gap-2 rounded-full border border-gray-300 px-5 py-2 text-sm hover:bg-white transition"
               >
-                <img src="/gmail.png" alt="Email" className="h-5 w-5" />
+                <img src="/Gmail.png" alt="Email" className="h-5 w-5" />
                 Email
               </a>
 
