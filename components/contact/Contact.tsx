@@ -47,7 +47,7 @@ export default function Contact() {
             </p>
 
             <div className="flex items-center gap-3">
-              <img src="/gmail.png" alt="Email" className="h-5" />
+              <img src="/Gmail.png" alt="Email" className="h-5" />
 
               <span className="text-[#8B0027] font-medium">
                 {email}
