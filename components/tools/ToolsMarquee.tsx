@@ -2,13 +2,13 @@
 
 const tools = [
   { name: "R studio", src: "/r-logo.png" },
-  { name: "FME", src: "/fme.png" },
+  { name: "FME", src: "/FME.png" },
   { name: "ArcGIS", src: "/arcgis-logo.png" },
   { name: "Next.js", src: "/next-js.svg" },
   { name: "Python", src: "/python-logo.png" },
   { name: "HTML5", src: "/html.jpeg" },
   { name: "CSS3", src: "/CSS.jpeg" },
-  { name: "JavaScript", src: "/js.jpeg" },
+  { name: "JavaScript", src: "/JS.jpeg" },
   { name: "QGIS", src: "/qgis-logo.png" },
   { name: "PostgreSQL", src: "/sql-logo.png" },
   { name: "Excel", src: "/excel-logo.png" },

@@ -173,7 +173,7 @@ export default function Projects() {
         fr: "Corse",
         en: "Corsica",
       },
-      image: "/corse.png",
+      image: "/Corse.png",
       description: {
         fr: "Conception et description d'une cartographie statistique appliquée au territoire corse.",
         en: "Design and analysis of statistical cartography applied to the Corsican territory.",

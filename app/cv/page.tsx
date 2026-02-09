@@ -54,7 +54,7 @@ export default function CVPage() {
 
                   <ul className="space-y-3 text-sm text-gray-700">
                     <li className="flex items-center gap-2">
-                      <Image src="/gmail.png" alt="" width={16} height={16} />
+                      <Image src="/Gmail.png" alt="" width={16} height={16} />
                       <a href="mailto:diallodjiby1603@gmail.com" className="hover:underline">
                         diallodjiby1603@gmail.com
                       </a>
@@ -130,7 +130,7 @@ export default function CVPage() {
               <div className="flex flex-wrap gap-3 max-w-5xl">
           {[
             { name: "R Studio", src: "/r-logo.png" },
-            { name: "FME", src: "/fme.png" },
+            { name: "FME", src: "/FME.png" },
             { name: "ArcGIS", src: "/arcgis-logo.png" },
             { name: "QGIS", src: "/qgis-logo.png" },
             { name: "Google Earth Engine", src: "/google_earth_engine.png" },
@@ -139,7 +139,7 @@ export default function CVPage() {
             { name: "Geoserver", src: "/GeoServer.png" },
             { name: "Leaflet", src: "/Leaflet.png" },
             { name: "Next.js", src: "/next-js.svg" },
-            { name: "JavaScript", src: "/js.jpeg" },
+            { name: "JavaScript", src: "/JS.jpeg" },
             { name: "HTML5", src: "/html.jpeg" },
             { name: "CSS3", src: "/CSS.jpeg" },
             { name: "Tailwind", src: "/tailwin.png" },

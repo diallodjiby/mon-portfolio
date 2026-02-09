@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { translations } from "@/lib/translations";
 
-const images = ["/cine.png", "/musique.png", "/lire.png", "/musculation.png"];
+const images = ["/cine.png", "/Musique.png", "/lire.png", "/Musculation.png"];
 
 export default function LifeOutsideTerminal() {
   const { lang } = useLanguage();
