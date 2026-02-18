@@ -92,7 +92,7 @@ cv: {
   job: "Géomaticien / Cartographe",
   phone: "Téléphone",
   location: "Localisation",
-  languages: "Langues",
+  languages: "Langues : Anglais / Français",
 
   profileText:
     "Géomaticien passionné par l’analyse spatiale, la cartographie et la valorisation des données géographiques. Formé aux outils SIG, au développement web et à l’analyse de données, je conçois des solutions d’aide à la décision et de compréhension des territoires.",
@@ -239,7 +239,7 @@ cv: {
   job: "Geomatics Engineer / Cartographer",
   phone: "Phone",
   location: "Location",
-  languages: "Languages",
+  languages: "Languages : English / French",
 
   profileText:
     "Geomatics engineer passionate about spatial analysis, cartography and the valorization of geographic data. Trained in GIS tools, web development and data analysis, I design decision-support solutions to better understand territories.",
