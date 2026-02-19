@@ -9,9 +9,9 @@ export default function CVPage() {
   const { lang } = useLanguage();
   const t = translations[lang].cv;
 
- const handlePrintCV = () => {
-  window.print();
-};
+  const handlePrintCV = () => {
+    window.print();
+  };
 
   return (
     <>
@@ -39,14 +39,15 @@ export default function CVPage() {
                     Djiby Diallo
                   </h1>
 
-                  <p className="text-gray-700 mb-5">
-                    {t.job}
-                  </p>
+                  <p className="text-gray-700 mb-5">{t.job}</p>
 
                   <ul className="space-y-3 text-sm text-gray-700">
                     <li className="flex items-center gap-2">
                       <Image src="/Gmail.png" alt="" width={16} height={16} />
-                      <a href="mailto:diallodjiby1603@gmail.com" className="hover:underline">
+                      <a
+                        href="mailto:diallodjiby1603@gmail.com"
+                        className="hover:underline"
+                      >
                         diallodjiby1603@gmail.com
                       </a>
                     </li>
@@ -56,6 +57,7 @@ export default function CVPage() {
                       <a
                         href="https://www.linkedin.com/in/djiby-diallo-05a0842a8/"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="hover:underline"
                       >
                         linkedin.com/in/djiby-diallo
@@ -67,9 +69,23 @@ export default function CVPage() {
                       <a
                         href="https://github.com/diallodjiby"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="hover:underline"
                       >
                         github.com/diallodjiby
+                      </a>
+                    </li>
+
+                    {/* 👉 Lien du portfolio juste sous GitHub */}
+                    <li className="flex items-center gap-2">
+                      <Image src="/vercel.png" alt="" width={16} height={16} />
+                      <a
+                        href="https://mon-portfolio-pro-iota.vercel.app/" // 🔁 remplace par ton URL réelle
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        portfolio_djiby_diallo
                       </a>
                     </li>
                   </ul>
