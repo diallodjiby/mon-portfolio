@@ -39,23 +39,13 @@ export default function Navbar() {
   const inactiveClass =
     "rounded-full px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 transition";
 
-  const handleDownloadCV = () => {
-  const fileName =
-    lang === "fr"
-      ? "/Cv_Djiby_Diallo_Geomaticien.pdf"
-      : "/Cv_Djiby_Diallo_Geomatics_Engineer.pdf";
-
-  const link = document.createElement("a");
-  link.href = fileName;
-  link.download = fileName.split("/").pop()!;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
-
+  // 👉 Impression du CV (au lieu du téléchargement PDF)
+  const handlePrintCV = () => {
+    window.print();
+  };
 
   return (
-    <header className="w-full bg-[#FBF7F4] border-b border-[#E5E1DC] sticky top-0 z-50">
+    <header className="print:hidden w-full bg-[#FBF7F4] border-b border-[#E5E1DC] sticky top-0 z-50">
       <nav className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         {/* ===== GAUCHE ===== */}
         <div className="flex items-center gap-3">
@@ -91,11 +81,11 @@ export default function Navbar() {
             </button>
           ) : (
             <button
-              onClick={handleDownloadCV}
+              onClick={handlePrintCV}
               className="cursor-pointer flex items-center gap-2 rounded-full bg-[#8B0027] px-5 py-2 text-sm font-medium text-white hover:opacity-90 transition"
             >
-              <img src="/abdownloadmanager.svg" alt="" className="h-4 w-4" />
-              {t.downloadCV}
+              <img src="/libreofficewriter.svg" alt="" className="h-4 w-4" />
+              {lang === "fr" ? "Imprimer le CV" : "Print CV"}
             </button>
           )}
 

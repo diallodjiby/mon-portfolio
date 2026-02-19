@@ -9,19 +9,10 @@ export default function CVPage() {
   const { lang } = useLanguage();
   const t = translations[lang].cv;
 
-  const handleDownloadCV = () => {
-    const fileName =
-      lang === "fr"
-        ? "/Cv_Djiby_Diallo_Géomaticien.pdf"
-        : "/Cv_Djiby_Diallo_Geomatics_Engineer.pdf";
+ const handlePrintCV = () => {
+  window.print();
+};
 
-    const link = document.createElement("a");
-    link.href = fileName;
-    link.download = fileName.split("/").pop()!;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <>
       {/* ===== HEADER CV ===== */}
