@@ -80,7 +80,7 @@ export default function CVPage() {
                     <li className="flex items-center gap-2">
                       <Image src="/vercel.png" alt="" width={16} height={16} />
                       <a
-                        href="https://portfoliodjibydiallo.vercel.app/" // 🔁 remplace par ton URL réelle
+                        href="https://portfoliodjibydiallo.vercel.app/" // 🔁 remplace par ton URL djibydiallo
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
